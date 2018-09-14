@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>문서 제목</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/reset.css">
+	<style>
+		#notice_area{width:100%;height:500px;margin:0 auto;}
+		.bnr_notice{width:492px;height:140px;background:#fff;box-shadow:2px 2px 3px rgba(81,76,68,0.14)}
+		.ico{display:inline-block;vertical-align:middle;}
+		.bnr_notice{position:relative;padding:15px 20px;background-color:#fff;height:120px;overflow:hidden;}
+		.bnr_notice dt{font-size:16px;font-weight:500;color:#38474f;}
+		.bnr_notice dd{margin-top:12px;}
+		.bnr_notice dd ul li{padding-top:11px;padding-left: 10px;margin-top:12px;background:url(./images/bg_dot_line.png) repeat-x 8px 0;}
+		.bnr_notice dd ul li:first-child{margin-top:0;padding-top:0;background:none;}
+		.bnr_notice dd ul li:last-child{background: none;}
+		.bnr_notice dd ul li a{display:block;overflow:hidden;position:relative;/*padding-left:14px*/;font-size:14px;color:#38474f;text-overflow:ellipsis;white-space:nowrap;word-break:break-all;}
+		.bnr_notice .btn_more{position:absolute;top:20px;right:25px;}
+	</style>
+</head>
+<body>
+	<div class="bnr_section bnr_section_right" id="notice_area">
+        <div class="bnr_notice">
+            <dl>
+                <dt>공지사항</dt>
+                <dd>
+					<ul id="noticeList">
+						<li>
+							<a href="#"><i class="fas fa-volume-down"></i>
+							<span class="ico ico_notice"></span> 도미노피자 로그인&amp;수신동의 이벤트 당첨자 안내</a>
+						</li>
+						<li>
+							<a href="#"><i class="fas fa-volume-down"></i>
+							<span class="ico ico_notice"></span> 도미노 파티카 10주년 기념 고객 대상 8월 이벤트 당첨자 안내</a>
+						</li>
+						<li>
+							<a href="#"><i class="fas fa-volume-down"></i>
+							<span class="ico ico_notice"></span> 도미노피자 개인정보 처리방침 개정 안내</a>
+						</li>
+					</ul>
+				</dd>
+			</dl>
+			<div class="btn_more">
+				<a><i class="fas fa-plus"></i></a>
+			</div>
+        </div>
+    </div>
+</body>
+</html>
